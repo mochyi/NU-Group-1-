@@ -16,5 +16,7 @@ public class PlayerShip : MonoBehaviour
     void Update()
     {
         
+        
+
     }
 }
