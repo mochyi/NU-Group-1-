@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\XVal.cs" />
     <Compile Include="Assets\PlayerShip.cs" />
+    <Compile Include="Assets\YVal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
