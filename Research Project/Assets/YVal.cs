@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class YVal : MonoBehaviour
+
+
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public TextMeshProUGUI user_name;
+    public TMP_InputField user_YVal;
+
+
+    public void setName()
     {
-        
+        user_name.text = user_YVal.text;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

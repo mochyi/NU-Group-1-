@@ -663,7 +663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   user_name: {fileID: 0}
-  user_InputField: {fileID: 0}
+  user_InputField: {fileID: 1712357162}
 --- !u!4 &859355637
 Transform:
   m_ObjectHideFlags: 0
@@ -889,6 +889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1321702564}
+  - component: {fileID: 1321702565}
   m_Layer: 0
   m_Name: YVal
   m_TagString: Untagged
@@ -911,6 +912,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1321702565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321702563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820d64fb14388e54eb6979925a987446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  user_name: {fileID: 0}
+  user_YVal: {fileID: 38643984}
 --- !u!1 &1422806996
 GameObject:
   m_ObjectHideFlags: 0

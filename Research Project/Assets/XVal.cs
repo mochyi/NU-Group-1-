@@ -12,7 +12,7 @@ public class XVal : MonoBehaviour
     public TMP_InputField user_InputField;
 
 
-    public void setName()
+    public void setXVal()
     {
         user_name.text = user_InputField.text;
     }
