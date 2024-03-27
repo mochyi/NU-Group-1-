@@ -208,7 +208,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 546938312}
         m_TargetAssemblyTypeName: FloatConverter, Assembly-CSharp
-        m_MethodName: Start
+        m_MethodName: whenButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14a0ea13c86fa14a8eb2c27dfeabe79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myString: 
+  myString: 3232
   myFloat: 0
 --- !u!4 &546938313
 Transform:
@@ -363,8 +363,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546938311}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 623.8663, y: 450.46936, z: -12.619347}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 623.8663, y: 450.46936, z: -12.619339}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
